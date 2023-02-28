@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#010422;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width:1120px){
+  html{
+    font-size: 1.4vw;
+  }
+}
+
+@media only screen and (max-width:800px){
+  html{
+    font-size: 1.3vw;
+  }
+}
+
+@media only screen and (max-width:680px){
+  html{
+    font-size: 1.5vw;
+  }
+    /* .OpenMobile{
+        position:fixed;
+    } */
 }
